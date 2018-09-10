@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Rocket Elevator</title>
+		<meta name="description" content="" />
+		<meta name="Author" content="Dorin Grigoras [www.stepofweb.com]" />
+
+		<!-- mobile settings -->
+		<meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=0" />
+		<!--[if IE]><meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'><![endif]-->
+
+		<!-- WEB FONTS : use %7C instead of | (pipe) -->
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css" />
+
+		<!-- CORE CSS -->
+		<link href="assets/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+		
+		<!-- THEME CSS -->
+		<link href="assets/css/essentials.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/layout.css" rel="stylesheet" type="text/css" />
+
+		<!-- PAGE LEVEL SCRIPTS -->
+		<link href="assets/css/header-1.css" rel="stylesheet" type="text/css" />
+		<link href="assets/css/color_scheme/blue.css" rel="stylesheet" type="text/css" id="color_scheme" />
+	</head>
+
+	<!--
+		AVAILABLE BODY CLASSES:
+		
+		smoothscroll 			= create a browser smooth scroll
+		enable-animation		= enable WOW animations
+
+		bg-grey					= grey background
+		grain-grey				= grey grain background
+		grain-blue				= blue grain background
+		grain-green				= green grain background
+		grain-blue				= blue grain background
+		grain-orange			= orange grain background
+		grain-yellow			= yellow grain background
+		
+		boxed 					= boxed layout
+		pattern1 ... patern11	= pattern background
+		menu-vertical-hide		= hidden, open on click
+		
+		BACKGROUND IMAGE [together with .boxed class]
+		data-background="assets/images/_smarty/boxed_background/1.jpg"
+	-->
+	<body class="smoothscroll enable-animation grain-grey">
+
+
+		<!-- wrapper -->
+		<div id="wrapper">
+
+			<!-- 
+				AVAILABLE HEADER CLASSES
+
+				Default nav height: 96px
+				.header-md 		= 70px nav height
+				.header-sm 		= 60px nav height
+
+				.b-0 		= remove bottom border (only with transparent use)
+				.transparent	= transparent header
+				.translucent	= translucent header
+				.sticky			= sticky header
+				.static			= static header
+				.dark			= dark header
+				.bottom			= header on bottom
+				
+				shadow-before-1 = shadow 1 header top
+				shadow-after-1 	= shadow 1 header bottom
+				shadow-before-2 = shadow 2 header top
+				shadow-after-2 	= shadow 2 header bottom
+				shadow-before-3 = shadow 3 header top
+				shadow-after-3 	= shadow 3 header bottom
+
+				.clearfix		= required for mobile menu, do not remove!
+
+				Example Usage:  class="clearfix sticky header-sm transparent b-0"
+			-->
+			<div id="header" class="navbar-toggleable-md sticky clearfix">
+
+				<!-- TOP NAV -->
+				<header id="topNav">
+						<div class="container">
+	
+							<!-- Mobile Menu Button -->
+							<button class="btn btn-mobile" data-toggle="collapse" data-target=".nav-main-collapse">
+								<i class="fa fa-bars"></i>
+							</button>
+	
+							<!-- Logo -->
+							<a class="logo float-left scrollTo" href="#top">
+								<img src="assets/images/Main/R2.png" alt="" />
+							</a>
+	
+							<!-- 
+								Top Nav 
+								
+								AVAILABLE CLASSES:
+								submenu-dark = dark sub menu
+							-->
+							<div class="navbar-collapse collapse float-right nav-main-collapse submenu-dark">
+								<nav class="nav-main">
+	
+									<!-- 
+										.nav-onepage
+										Required for onepage navigation links
+										
+										Add .external for an external link!
+									-->
+									<ul id="topMain" class="nav nav-pills nav-main nav-onepage">
+										<li class="active"><!-- HOME -->
+											<a href="index-onepage-rocket.html#">
+												HOME
+											</a>
+										</li>
+										<li class="dropdown"><!-- SERVICE -->
+											<a class="dropdown-toggle" href="#">
+												SERVICE
+											</a>
+											<ul class="dropdown-menu">
+												<li class="dropdown">
+													<a class="Ser" href="residential.html">
+														Residential
+													</a>
+												</li>
+												<li class="dropdown">
+														<a class="dropdown" href="corporate.html">
+															Corporate
+														</a>
+													</li>
+												
+											</ul>
+										</li>
+										<li><!-- WORK -->
+											<a href="index-onepage-rocket.html#work">
+												PORTFOLIO
+											</a>
+										</li>
+										<li><!-- NEWS -->
+											<a href="index-onepage-rocket.html#news">
+												NEWS
+											</a>
+										</li>
+	
+										<li><!-- CLIENTS -->
+											<a href="index-onepage-rocket.html#clients">
+												CLIENTS
+											</a>
+										</li>
+	
+										<li><!-- CONTACT -->
+											<a href="index-onepage-rocket.html#contact">
+												CONTACT
+											</a>
+										</li>
+									</ul>
+	
+								</nav>
+							</div>
+	
+						</div>
+					</header>
+					<!-- /Top Nav -->
+
+
+			</div>
+
+
+			<!-- 
+				PAGE HEADER 
+				
+				CLASSES:
+					.page-header-xs	= 20px margins
+					.page-header-md	= 50px margins
+					.page-header-lg	= 80px margins
+					.page-header-xlg= 130px margins
+					.dark			= dark page header
+
+					.shadow-before-1 	= shadow 1 header top
+					.shadow-after-1 	= shadow 1 header bottom
+					.shadow-before-2 	= shadow 2 header top
+					.shadow-after-2 	= shadow 2 header bottom
+					.shadow-before-3 	= shadow 3 header top
+					.shadow-after-3 	= shadow 3 header bottom
+			-->
+			<section class="page-header">
+				<div class="container">
+
+					<h1>Submission</h1>
+
+
+				</div>
+			</section>
+			<!-- /PAGE HEADER -->
+
+
+			
+				<!-- / -->
+
+				<!-- JUSTIFIED TAB -->
+				<div class="tabs mt-0 hidden-xs-down mb-60">
+
+						<!-- tabs -->
+						<ul class="nav nav-tabs nav-bottom-border nav-justified">
+							<li class="nav-item">
+								<a class="nav-item" href="#tab_1" data-toggle="tab">
+									Residential
+								</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-item" href="#tab_2" data-toggle="tab">
+									Commercial
+								</a>
+							</li>
+							<li class="nav-item">
+									<a class="nav-item" href="#tab_3" data-toggle="tab">
+										Coporate
+									</a>
+								</li>
+								<li class="nav-item">
+									<a class="nav-item" href="#tab_4" data-toggle="tab">
+										Hybrid
+									</a>
+								</li>
+							
+						</ul>
+
+						<!-- tabs content -->
+						<div class="tab-content mb-60 mt-30">
+
+							<!-- Residential -->
+							<div id="tab_1" class="tab-pane active">
+									<div class="card card-default">
+								
+											<div class="card-heading card-heading-transparent">
+												<h2 class="card-title">Residential</h2>
+											</div>
+				
+											<div class="card-block">
+				
+												<form class="validate" action="php/contact.php" method="post" enctype="multipart/form-data" data-success="Sent! Thank you!" data-toastr-position="top-right">
+													<fieldset>
+														<!-- required [php action request] -->
+														<input type="hidden" name="action" value="contact_send" />
+				
+														<div class="row">
+															<div class="col-md-6 col-sm-6">
+																<label>How many apartments offer the building</label>
+																<input type="text" name="contact[first_name]" value="" class="form-control required">
+															</div>
+															<div class="col-md-6 col-sm-6">
+																<label>How many floor</label>
+																<input type="text" name="contact[last_name]" value="" class="form-control required">
+															</div>
+														</div>
+				
+														<div class="row">
+															<div class="col-md-6 col-sm-6">
+																<label>How many basements</label>
+																<input type="text" name="contact[email]" value="" class="form-control required">
+															</div>
+				
+														</div>
+				
+														<div class="row">
+															<div class="col-md-12 col-sm-12">
+																<label>Position *</label>
+																<select name="contact[position]" class="form-control pointer required">
+																	<option value="">--- Select ---</option>
+																	<option value="Marketing">PR &amp; Marketing</option>
+																	<option value="Developer">Web Developer</option>
+																	<option value="php">PHP Programmer</option>
+																	<option value="Javascript">Javascript Programmer</option>
+																</select>
+															</div>
+														</div>		
+				
+													</fieldset>
+				
+													<div class="row">
+														<div class="col-md-12">
+															<button type="submit" class="btn btn-blue btn-teal btn-xlg btn-block mt-30">
+																SEND APPLICATION
+																<span class="block font-lato">We'll get back to you within 48 hours</span>
+															</button>
+														</div>
+													</div>
+				
+												</form>
+				
+				
+											
+										</div>
+										<!-- /Useful Elements -->
+			
+									</div>
+								
+
+							</div>
+							<!-- /Residential -->
+
+
+							<!-- Commercial -->
+							<div id="tab_2" class="tab-pane">
+									<div class="card card-default">
+								
+											<div class="card-heading card-heading-transparent">
+												<h2 class="card-title">Commercial</h2>
+											</div>
+				
+											<div class="card-block">
+				
+												<form class="validate" action="php/contact.php" method="post" enctype="multipart/form-data" data-success="Sent! Thank you!" data-toastr-position="top-right">
+													<fieldset>
+														<!-- required [php action request] -->
+														<input type="hidden" name="action" value="contact_send" />
+				
+														<div class="row">
+															<div class="col-md-6 col-sm-6">
+																<label>How many apartments offer the building</label>
+																<input type="text" name="contact[first_name]" value="" class="form-contro...
